@@ -1,10 +1,10 @@
 package bupt.edu.jhc.apicloud.service;
 
-import com.jhc.csbot.common.constants.SysConstants;
-import com.jhc.csbot.dao.user.UserDao;
-import com.jhc.csbot.model.dto.user.RandomUserInfo;
-import com.jhc.csbot.model.entity.User;
-import com.jhc.csbot.utils.RandomUtils;
+import bupt.edu.jhc.apicloud.common.constants.SysConstants;
+import bupt.edu.jhc.apicloud.dao.user.UserDao;
+import bupt.edu.jhc.apicloud.model.dto.user.RandomUserInfo;
+import bupt.edu.jhc.apicloud.model.entity.User;
+import bupt.edu.jhc.apicloud.utils.RandomUtils;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
