@@ -43,22 +43,6 @@ const ActionIcons = () => {
     </>
   );
 };
-const Lang = () => {
-  const langClassName = useEmotionCss(({ token }) => {
-    return {
-      width: 42,
-      height: 42,
-      lineHeight: '42px',
-      position: 'fixed',
-      right: 16,
-      borderRadius: token.borderRadius,
-      ':hover': {
-        backgroundColor: token.colorBgTextHover,
-      },
-    };
-  });
-  return;
-};
 const LoginMessage: React.FC<{
   content: string;
 }> = ({ content }) => {
@@ -131,7 +115,6 @@ const Login: React.FC = () => {
           {'登录'}- {Settings.title}
         </title>
       </Helmet>
-      <Lang />
       <div
         style={{
           flex: '1',
@@ -181,11 +164,11 @@ const Login: React.FC = () => {
                   size: 'large',
                   prefix: <UserOutlined />,
                 }}
-                placeholder={'用户名: admin or user'}
+                placeholder={'请输入账号！'}
                 rules={[
                   {
                     required: true,
-                    message: '用户名是必填项！',
+                    message: '账号是必填项！',
                   },
                 ]}
               />
@@ -195,7 +178,7 @@ const Login: React.FC = () => {
                   size: 'large',
                   prefix: <LockOutlined />,
                 }}
-                placeholder={'密码: ant.design'}
+                placeholder={'请输入密码！'}
                 rules={[
                   {
                     required: true,
@@ -238,7 +221,7 @@ const Login: React.FC = () => {
                 placeholder={'请输入验证码！'}
                 captchaTextRender={(timing, count) => {
                   if (timing) {
-                    return `${count} ${'秒后重新获取'}`;
+                    return `${count} 秒后重新获取`;
                   }
                   return '获取验证码';
                 }}

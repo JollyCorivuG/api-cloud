@@ -15,6 +15,8 @@ public class UserAdapter {
                 .phone(user.getPhone())
                 .nickName(user.getNickName())
                 .avatar(user.getAvatar())
+                .status(user.getStatus())
+                .role(user.getRole())
                 .build();
     }
 }

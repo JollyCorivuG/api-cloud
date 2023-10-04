@@ -16,4 +16,8 @@ public class SysConstants {
     public static final Integer USER_STATUS_NORMAL = 0;
     public static final Integer USER_STATUS_BLACK = 1;
 
+    // 接口状态
+    public static final Integer INTERFACE_STATUS_CLOSE = 0;
+    public static final Integer INTERFACE_STATUS_OPEN = 1;
+
 }

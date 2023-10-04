@@ -19,4 +19,6 @@ public class UserInfo {
     private String phone;
     private String nickName;
     private String avatar;
+    private Integer status;
+    private String role;
 }

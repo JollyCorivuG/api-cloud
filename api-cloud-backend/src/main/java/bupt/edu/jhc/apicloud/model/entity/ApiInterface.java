@@ -8,31 +8,35 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @Description: 用户表
+ * @Description: 接口表
  * @Author: <a href="https://github.com/JollyCorivuG">JollyCorivuG</a>
- * @CreateTime: 2023/9/18
+ * @CreateTime: 2023/10/4
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName(value = "user", autoResultMap = true)
-public class User implements Serializable {
+@TableName(value = "api_interface", autoResultMap = true)
+public class ApiInterface implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
-    private String phone;
-    private String nickName;
-    private String avatar;
-    private String account;
-    private String password;
+    private String name;
+    private String description;
+    private String url;
+    private String method;
+    private String requestParams;
+    private String requestHeader;
+    private String responseHeader;
     private Integer status;
-    private String role;
+    private Integer totalReqCnt;
+    private Long creatorId;
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
 }
+
