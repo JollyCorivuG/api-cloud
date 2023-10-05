@@ -21,4 +21,6 @@ public class UserInfo {
     private String avatar;
     private Integer status;
     private String role;
+    private String accessKey;
+    private String secretKey;
 }

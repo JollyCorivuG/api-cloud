@@ -17,6 +17,8 @@ public class UserAdapter {
                 .avatar(user.getAvatar())
                 .status(user.getStatus())
                 .role(user.getRole())
+                .accessKey(user.getAccessKey())
+                .secretKey(user.getSecretKey())
                 .build();
     }
 }

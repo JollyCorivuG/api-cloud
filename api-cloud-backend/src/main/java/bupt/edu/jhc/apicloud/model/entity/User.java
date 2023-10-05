@@ -31,8 +31,11 @@ public class User implements Serializable {
     private String password;
     private Integer status;
     private String role;
+    private String accessKey;
+    private String secretKey;
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
 }
+

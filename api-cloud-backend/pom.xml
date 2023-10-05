@@ -13,9 +13,9 @@
 
     <groupId>bupt.edu.jhc</groupId>
     <artifactId>apicloud</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>apicloud</name>
-    <description>A Spring Boot Project</description>
+    <description>API 接口云</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
