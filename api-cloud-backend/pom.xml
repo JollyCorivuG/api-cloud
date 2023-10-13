@@ -5,17 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>bupt.edu.jhc</groupId>
+        <artifactId>apicloud</artifactId>
+        <version>0.0.1</version>
     </parent>
 
-    <groupId>bupt.edu.jhc</groupId>
-    <artifactId>apicloud</artifactId>
+    <artifactId>apicloud-backend</artifactId>
     <version>0.0.1</version>
-    <name>apicloud</name>
-    <description>API 接口云</description>
+    <name>apicloud-backend</name>
+    <description>API 接口云---后端</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -29,7 +27,6 @@
             <artifactId>apicloud-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>
-
 
         <!--springboot-web-->
         <dependency>
@@ -53,7 +50,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.20</version>
             <scope>provided</scope>
         </dependency>
 
@@ -81,22 +77,14 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.8.18</version>
         </dependency>
 
         <!--swagger3-->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
-            <version>4.1.0</version>
         </dependency>
 
-        <!-- netty -->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.76.Final</version>
-        </dependency>
 
         <!-- jwt -->
         <dependency>

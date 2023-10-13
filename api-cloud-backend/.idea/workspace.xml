@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fa40c76-1bed-4fcb-b6d9-f3fae65cba72" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Tools\maven-repository" />
+        <option name="mavenHome" value="F:/Tools/apache-maven-3.9.1" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="F:\Tools\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2VFsA0Th2jZN6Gcgn85d8TQECWd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/full_stack_project/api-cloud/api-cloud-backend/api-cloud-client-sdk/src/main/java/bupt/edu/jhc/apicloud/common/domain&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d2e6516e1a527b02b7b82086855f3239&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;5af18d64-7e8c-4574-9e54-304f6999ba53/schema/\&quot;csbot\&quot;&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\full_stack_project\api-cloud\api-cloud-backend\api-cloud-client-sdk\src\main\java\bupt\edu\jhc\apicloud\common\domain" />
+      <recent name="E:\full_stack_project\api-cloud\api-cloud-backend\api-cloud-client-sdk\src\main\java\bupt\edu\jhc\apicloud\common" />
+      <recent name="E:\full_stack_project\api-cloud\api-cloud-backend\src\main\java\bupt\edu\jhc\apicloud" />
+      <recent name="E:\full_stack_project\csbot\csbot-backend\src\main\java\com\jhc\csbot\service\strategy\msg" />
+      <recent name="E:\full_stack_project\csbot\csbot-backend\src\main\java\com\jhc\csbot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bupt.edu.jhc.apicloud.exception" />
+      <recent name="bupt.edu.jhc.apicloud.common.exception" />
+      <recent name="bupt.edu.jhc.apicloud.common.domain.enums" />
+      <recent name="bupt.edu.jhc.apicloud" />
+      <recent name="com.jhc.csbot.model.vo.auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiCloudInterfaceApplicationTests.testClientSDK (1)">
+    <configuration name="ApiCloudInterfaceApplicationTests.testClientSDK (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apicloud-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bupt.edu.jhc.apicloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bupt.edu.jhc.apicloud" />
+      <option name="MAIN_CLASS_NAME" value="bupt.edu.jhc.apicloud.ApiCloudInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="testClientSDK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="api-cloud" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="api-cloud" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="apicloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bupt.edu.jhc.apicloud.ApiCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apicloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bupt.edu.jhc.apicloud.ApiCloudGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bupt.edu.jhc.apicloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiCloudInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apicloud-interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bupt.edu.jhc.apicloud.ApiCloudInterfaceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bupt.edu.jhc.apicloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiCloudInterfaceApplicationTests.testClientSDK (1)" />
+        <item itemvalue="Spring Boot.ApiCloudGatewayApplication" />
+        <item itemvalue="Spring Boot.ApiCloudInterfaceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0fa40c76-1bed-4fcb-b6d9-f3fae65cba72" name="更改" comment="" />
+      <created>1694443015432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694443015432</updated>
+      <workItem from="1694443016561" duration="2019000" />
+      <workItem from="1694518256905" duration="4954000" />
+      <workItem from="1694527925638" duration="2757000" />
+      <workItem from="1694658511788" duration="113000" />
+      <workItem from="1694658705963" duration="4967000" />
+      <workItem from="1694680944992" duration="2448000" />
+      <workItem from="1694741777585" duration="2975000" />
+      <workItem from="1694862377812" duration="6076000" />
+      <workItem from="1694920315566" duration="14000" />
+      <workItem from="1695005239763" duration="1786000" />
+      <workItem from="1695013576456" duration="6153000" />
+      <workItem from="1695030313406" duration="630000" />
+      <workItem from="1695041311941" duration="3397000" />
+      <workItem from="1695086738157" duration="801000" />
+      <workItem from="1695094034729" duration="1070000" />
+      <workItem from="1695264365354" duration="697000" />
+      <workItem from="1695285067669" duration="1595000" />
+      <workItem from="1695365520922" duration="87000" />
+      <workItem from="1695618470769" duration="10012000" />
+      <workItem from="1695630793186" duration="2385000" />
+      <workItem from="1695640251921" duration="843000" />
+      <workItem from="1695735816631" duration="19000" />
+      <workItem from="1696257306940" duration="323000" />
+      <workItem from="1696304241751" duration="518000" />
+      <workItem from="1696317723802" duration="3628000" />
+      <workItem from="1696341626057" duration="2871000" />
+      <workItem from="1696386607462" duration="8361000" />
+      <workItem from="1696469530527" duration="6260000" />
+      <workItem from="1696492931258" duration="2020000" />
+      <workItem from="1696556681672" duration="5141000" />
+      <workItem from="1696647519906" duration="2087000" />
+      <workItem from="1696858884518" duration="977000" />
+      <workItem from="1696901062195" duration="1000" />
+      <workItem from="1696901101866" duration="38000" />
+      <workItem from="1696939133374" duration="4280000" />
+      <workItem from="1697025640206" duration="2890000" />
+      <workItem from="1697035986363" duration="90000" />
+      <workItem from="1697075335243" duration="5583000" />
+      <workItem from="1697081119832" duration="371000" />
+      <workItem from="1697117336749" duration="174000" />
+      <workItem from="1697117552722" duration="6134000" />
+      <workItem from="1697123792680" duration="8000" />
+      <workItem from="1697162298825" duration="5227000" />
+      <workItem from="1697181328513" duration="5090000" />
+      <workItem from="1697210126403" duration="1357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
