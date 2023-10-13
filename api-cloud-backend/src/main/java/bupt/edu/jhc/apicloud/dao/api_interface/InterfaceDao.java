@@ -29,4 +29,12 @@ public class InterfaceDao extends ServiceImpl<InterfaceMapper, ApiInterface> {
     public boolean deleteInterface(Long id) {
         return this.removeById(id);
     }
+
+    /**
+     * 更新接口
+     * @param interfaceInfo
+     */
+    public boolean updateInterface(ApiInterface interfaceInfo) {
+        return this.updateById(interfaceInfo);
+    }
 }

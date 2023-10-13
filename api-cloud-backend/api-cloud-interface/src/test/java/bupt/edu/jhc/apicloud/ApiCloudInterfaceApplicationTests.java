@@ -1,7 +1,7 @@
 package bupt.edu.jhc.apicloud;
 
-import bupt.edu.jhc.apicloud.client.ApiCloudClient;
-import bupt.edu.jhc.apicloud.model.User;
+import bupt.edu.jhc.apicloud.model.resp.PoisonousChickenSoupResp;
+import bupt.edu.jhc.apicloud.service.IApiService;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,13 +14,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class ApiCloudInterfaceApplicationTests {
     @Resource
-    private ApiCloudClient apiCloudClient;
+    private IApiService apiService;
 
     @Test
     void testClientSDK() {
-        User user = new User();
-        user.setName("hqx and jhc");
-        String resp = apiCloudClient.getUserNameByPOST(user);
-        System.out.println("请求结果" + resp);
+        PoisonousChickenSoupResp resp = null;
+
+        resp = apiService.getPoisonousChickenSoup();
+        System.out.println("resp = " + resp);
+
     }
 }

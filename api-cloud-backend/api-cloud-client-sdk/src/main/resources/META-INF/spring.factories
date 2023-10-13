@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=bupt.edu.jhc.apicloud.ApiCloudClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=bupt.edu.jhc.apicloud.config.ApiCloudClientConfig

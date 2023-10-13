@@ -12,4 +12,7 @@ public class RedisConstants {
     public static final String CAPTCHA_PREFIX = "captcha:";
     // 验证码自增 id
     public static final String CAPTCHA_ID_KEY = "captcha:id";
+
+    // 用户调用接口时判断剩余次数的锁的名称
+    public static final String INTERFACE_INVOKE_LOCK_PREFIX = "interface:invoke:lock:";
 }

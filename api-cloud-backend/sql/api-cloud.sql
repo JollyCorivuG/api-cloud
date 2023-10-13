@@ -14,8 +14,8 @@ CREATE TABLE `user`  (
     `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户密码 (加密后)',
     `status` int(11) NOT NULL DEFAULT 0 COMMENT '使用状态 0.正常 1拉黑',
     `role` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户角色: user / admin',
-    `accessKey` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'accessKey',
-    `secretKey` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'secretKey',
+    `access_key` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'accessKey',
+    `secret_key` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'secretKey',
     `create_time` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) COMMENT '创建时间',
     `update_time` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3) COMMENT '更新时间',
     PRIMARY KEY (`id`) USING BTREE,
@@ -24,9 +24,9 @@ CREATE TABLE `user`  (
     UNIQUE INDEX `uniq_account`(`account`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
 -- 插入一个管理员
-INSERT INTO `user` VALUES (1, '18888888888', 'admin', 'https://img.yzcdn.cn/vant/cat.jpeg', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 0, 'admin', '2021-01-01 00:00:00.000', '2021-01-01 00:00:00.000');
+INSERT INTO `user` VALUES (1, '18888888888', 'admin', 'https://img.yzcdn.cn/vant/cat.jpeg', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 0, 'admin', 'jhc', '123456', '2021-01-01 00:00:00.000', '2021-01-01 00:00:00.000');
 -- 插入一个普通用户
-INSERT INTO `user` VALUES (2, '18888888889', 'user', 'https://img.yzcdn.cn/vant/cat.jpeg', 'user', 'e10adc3949ba59abbe56e057f20f883e', 0, 'user', '2021-01-01 00:00:00.000', '2021-01-01 00:00:00.000');
+INSERT INTO `user` VALUES (2, '18888888889', 'user', 'https://img.yzcdn.cn/vant/cat.jpeg', 'user', 'e10adc3949ba59abbe56e057f20f883e', 0, 'user', 'jhc', '123456','2021-01-01 00:00:00.000', '2021-01-01 00:00:00.000');
 
 -- ----------------------------
 -- Table structure for api_interface
@@ -48,7 +48,24 @@ CREATE TABLE `api_interface`  (
     `update_time` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3) COMMENT '更新时间',
     PRIMARY KEY (`id`) USING BTREE,
     UNIQUE INDEX `uniq_name`(`name`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci COMMENT = '接口表' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for user_interface
+-- ----------------------------
+DROP TABLE IF EXISTS `user_interface`;
+CREATE TABLE `user_interface`  (
+    `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键 id',
+    `user_id` bigint(20) UNSIGNED NOT NULL COMMENT '用户 id',
+    `interface_id` bigint(20) UNSIGNED NOT NULL COMMENT '接口 id',
+    `invoke_cnt` int(11) NOT NULL DEFAULT 0 COMMENT '调用次数',
+    `left_cnt` int(11) NOT NULL COMMENT '剩余次数',
+    `status` tinyint NOT NULL DEFAULT 0 COMMENT '使用状态 0正常 1禁用',
+    `create_time` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) COMMENT '创建时间',
+    `update_time` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3) COMMENT '更新时间',
+    PRIMARY KEY (`id`) USING BTREE,
+    UNIQUE INDEX `uniq_user_id_interface_id`(`user_id`, `interface_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci COMMENT = '用户接口关系表' ROW_FORMAT = Dynamic;
 
 
 

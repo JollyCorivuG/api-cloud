@@ -40,4 +40,20 @@ public class AdminInterfaceController {
         return BasicResponse.success(null);
     }
 
+    @PostMapping("/online/{id}")
+    @Operation(summary = "上线接口")
+    @RoleCheck(mustRole = RoleEnum.ADMIN)
+    public BasicResponse<Void> onlineInterface(@PathVariable("id") Long id) {
+        interfaceService.onlineInterface(id);
+        return BasicResponse.success(null);
+    }
+
+    @PostMapping("/offline/{id}")
+    @Operation(summary = "下线接口")
+    @RoleCheck(mustRole = RoleEnum.ADMIN)
+    public BasicResponse<Void> offlineInterface(@PathVariable("id") Long id) {
+        interfaceService.offlineInterface(id);
+        return BasicResponse.success(null);
+    }
+
 }

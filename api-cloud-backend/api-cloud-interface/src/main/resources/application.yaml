@@ -6,3 +6,4 @@ apicloud:
   client:
     access-key: jhc
     secret-key: 123456
+    gateway-host: localhost:8090
