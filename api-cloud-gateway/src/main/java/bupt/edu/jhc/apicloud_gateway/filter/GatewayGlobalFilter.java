@@ -140,10 +140,8 @@ public class GatewayGlobalFilter implements GlobalFilter, Ordered {
                         // 往返回值里写数据
                         return super.writeWith(
                                 fluxBody.map(dataBuffer -> {
-                                    // TODO 剩余次数减 1 的逻辑
                                     boolean update = remoteInterfaceService.invokeInterfaceSuccess(userInfo.getId(), interfaceInfo.getId());
-
-
+                                    ThrowUtils.throwIf(!update, ErrorStatus.SYSTEM_ERROR, "更新调用次数失败!");
                                     byte[] content = new byte[dataBuffer.readableByteCount()];
                                     dataBuffer.read(content);
                                     // 释放掉内存
