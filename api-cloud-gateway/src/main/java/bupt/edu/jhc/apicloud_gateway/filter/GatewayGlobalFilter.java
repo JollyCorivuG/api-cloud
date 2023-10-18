@@ -90,6 +90,9 @@ public class GatewayGlobalFilter implements GlobalFilter, Ordered {
         // 3.校验接口
         String totalUrl = request.getURI().toString();
         String url = totalUrl.substring(totalUrl.indexOf("/", 8));
+        if (url.contains("?")) {
+            url = url.substring(0, url.indexOf("?"));
+        }
         InterfaceDTO interfaceInfo = remoteInterfaceService.getInterfaceByUrlAndMethod(url, request.getMethod().toString());
         ThrowUtils.throwIf(interfaceInfo == null, ErrorStatus.PARAMS_ERROR, "接口不存在!");
         ThrowUtils.throwIf(interfaceInfo.getStatus().equals(InterfaceStatusEnum.CLOSE.getStatus()), ErrorStatus.OPERATION_ERROR, "接口已下线!");
