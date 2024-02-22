@@ -4,8 +4,7 @@
 > SDK 地址：https://github.com/JollyCorivuG/api-cloud-client-sdk
 
 # 项目架构图
-
-# 业务流程图
+![img.png](https://github.com/JollyCorivuG/api-cloud/blob/main/docs/%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E5%9B%BE.PNG)
 
 # 技术选型
 - Java 17 + Spring Boot 3.1.2
